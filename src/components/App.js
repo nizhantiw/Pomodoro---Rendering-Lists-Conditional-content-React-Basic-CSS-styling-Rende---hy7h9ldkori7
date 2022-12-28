@@ -1,5 +1,4 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React, {useState, useEffect} from 'react';
 
 function Clock() {
   const [workDuration, setWorkDuration] = useState(25);
@@ -94,4 +93,3 @@ function Clock() {
 }
 
 export default Clock;
-
